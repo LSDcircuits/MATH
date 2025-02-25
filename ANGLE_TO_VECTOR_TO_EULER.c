@@ -32,8 +32,8 @@ int main()
     angletovector(roll, pitch, yaw, &id, &ip, &jr);
    
     printf("angle to vecotr:\n");
-    printf("yaw angle: %f\n", id);
-    printf("pitch angle: %f\n", ip);
     printf("roll angle: %f\n", jr);
+    printf("pitch angle: %f\n", ip);
+    printf("yaw angle: %f\n", id);
     return 0;
 }
